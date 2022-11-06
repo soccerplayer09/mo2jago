@@ -4,6 +4,17 @@
 ## Architecture
 - TBD
 
+## Git Branching strategy
+<img width="657" alt="image" src="https://user-images.githubusercontent.com/60724296/200162091-a1e9eccc-e73f-4fd5-ba72-de01f337a9db.png">
+
+- Prod : Stable branch for production
+- Dev : Reflect latest development changes for next production
+- Dev-front : Dev branch for frontend side
+- Dev-back : Dev branch for backend side
+- Dev-front-feature-name : upcoming feature development in day-to-day work for frontend side
+- Dev-back-feature-name : upcoming feature development in day-to-day work for backend side
+- Hotfix-name : hot fix branch for production error
+
 ## Technology Dependency
 |Part|Type|Name|Version|etc|
 ---|---|---|---|---|
