@@ -107,7 +107,7 @@ jobs:
         run: |
           npm test
           echo test, and deploy your project.
-  end-to-end test:
+  E2E-test:
     needs: [test-backend, test-frontend]
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
@@ -118,7 +118,7 @@ jobs:
         run: |
           echo deploy your project.
   deploy:
-    needs: end-to-end test
+    needs: E2E-test
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
