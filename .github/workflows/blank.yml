@@ -30,12 +30,11 @@ jobs:
           
       - name: checkout repo
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+        uses: actions/checkout@v3
 
       # Runs a single command using the runners shell
       - name: build
         run: npm install
-
       # Runs a set of commands using the runners shell
       - name: test
         run: |
