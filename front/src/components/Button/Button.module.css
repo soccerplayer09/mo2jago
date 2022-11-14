@@ -1,0 +1,21 @@
+.button {
+  width: 343px;
+  height: 52px;
+  background: #f8754b;
+  border-style: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #f4a58c;
+}
+
+.buttonText {
+  color: #fff;
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
